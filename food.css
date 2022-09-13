@@ -1,0 +1,151 @@
+.one {
+    width: 420px;
+    height: 200px !important;
+    position: absolute;
+    top: 25%;
+    left: 20%  !important;
+    z-index: 1;
+    font-family: "Audiowide", sans-serif;
+    font-size: 14px;
+
+}
+
+.first {
+    position: relative;
+    height: 350px;
+    width: 100%
+}
+
+.two {
+    width: 420px;
+    height: 200px !important;
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    z-index: 1;
+    font-family: "Audiowide", sans-serif;
+    font-size: 14px;
+}
+
+.second {
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
+
+.btn {
+    border: none !important;
+}
+
+@media (max-width:2560px) {
+    .first{
+        position: relative;
+    }
+    .one{
+        position: absolute;
+        left:43% !important;
+    }
+
+    }
+   
+    @media(max-width:1024px){
+        .first{
+            position: relative;
+        }
+        .one{
+            position: absolute;
+            left: 10% !important;
+        }
+        
+    }
+    @media(max-width:768px){
+        .first{
+            position: relative;
+            margin-top: -60% !important;
+            margin-left: 1%;
+        }
+        .one{
+            position: absolute;
+            top: 110%;
+            width: 100%;
+            margin-left: -10%;
+        }
+        .second{
+            margin-left:-6%
+        }
+        .two{
+            margin-left: 20%;
+            width: 100%;
+        }
+        .zero{
+            height: 650px;
+        }
+    }
+     
+    @media(max-width:425px){
+        .first{          
+            margin-left: 4%;
+            margin-top: -100% !important;
+        }
+        .one{
+            width: 100%;
+            margin-left: -5%;
+        }
+        .second{
+            margin-left:-8%
+        }
+        .two{
+            margin-left: 25%;
+            width: 100%;
+        }  
+        
+    }
+    @media(max-width:375px){
+        .first{          
+            margin-left: 3%;
+            margin-top: -115% !important;
+        }
+        .one{
+            width: 360px;
+            margin-left: -8%;
+            height: 220px !important;
+            margin-top: -8%;
+        }
+        .second{
+            margin-left:-9%
+        }
+        .two{
+            margin-left: 22%;
+            width: 360px;
+        }  
+        
+    }
+     @media(max-width:320px){
+        .first{          
+            margin-left: 0%;
+            width: 340px;
+            margin-top: -140% !important;
+        }
+        .one{
+            width: 320px;
+            margin-left: -7%;
+            height: 240px !important;
+            margin-top: 0%;
+        }
+        .second{
+            width: 340px !important;
+            margin-left:-16%;
+            width: 350px;
+        }
+        .two{
+            margin-left: 24%;
+            width: 320px;
+        }
+        .pass{
+            margin-top: 40% !important;
+        }  
+        
+    } 
+   
+    
+     
